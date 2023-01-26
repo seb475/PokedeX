@@ -1,0 +1,159 @@
+.pokemon-card{
+  list-style: none;
+  background-image: linear-gradient(rgb(148, 147, 146),rgb(251, 251, 255));
+  width: 250px;
+  border-radius: 10px;
+  border-style:  solid  ;
+  border-color: rgb(221, 219, 219);
+  color: rgb(23, 23, 24);
+  
+}
+.pokemon-card img{
+  width: 100%;
+
+}
+
+
+.card{
+display: flex;
+justify-content: space-around;
+
+ 
+}
+
+.pokemon-card {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f7f8f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: large;
+ color: rgb(167, 157, 21);
+ 
+  
+
+  
+}
+
+.bdt{
+  background-image: url(/public/estta.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.home{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.hm{
+  width: 80%;
+  height: 25px;
+  
+}
+.mh{
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background: linear-gradient(rgb(240, 238, 238),red);
+  cursor: pointer;
+  
+}
+
+.inicio{
+  
+  width: 800px;
+ margin-left: 550px;
+ 
+
+  
+}
+.txt{
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+ font-size: 2.3rem;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.sig{
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background: linear-gradient(rgb(180, 180, 180),red);
+  cursor: pointer;
+}
+.ant{
+  padding: 0.5em 1em;
+  border-radius: 5px;
+ 
+}
+.pag{
+ margin: 2px;
+font-size: larger;
+  background: linear-gradient(rgb(194, 188, 188),rgb(10, 188, 233));
+  cursor: pointer;
+}
+.type{
+ display: flex;
+  border-radius: 3px;
+  font-size: medium;
+  margin-left: 75px;
+  
+ 
+  
+}
+.ptype{
+  color: rgb(244, 244, 245);
+  font-size: xx-large;
+  margin-bottom: 2px;
+  text-indent: 1cm;
+  
+}
+.img-detail{
+max-width: 500px;
+max-height: 400px;
+
+}
+.poke-name{
+  color: rgb(248, 248, 244);
+  
+  text-transform: uppercase;
+}
+.back{
+  margin: 2px;
+font-size: larger;
+  background: linear-gradient(rgb(160, 52, 38),rgb(236, 229, 229));
+  cursor: pointer;
+}
+
+.go-home{
+  margin: 2px;
+  font-size: larger;
+    background: linear-gradient(rgb(64, 38, 160),rgb(236, 229, 229));
+    cursor: pointer;
+    
+}
+.name-poke{
+ color: transparent;
+ 
+}
+.pkn{
+ font-size: larger;
+}
